@@ -1,19 +1,23 @@
-# Aula03 - ORM Prisma
+# SNOOPY PetShop
+Projeto de estudos do ORM Prisma com MYSQL no Node.JS
 
-## Demonstração
-Projeto modelo com prisma SNOOPY PetShop
-
-### Step by Step
-- Iniciar um projeto com prisma
-- 1 Ter um documento DER ou DC
-- 2 Criar repositório
-- 3 Clonar o repositório e abrir com VsCode
-- 4 Criar a pasta API e o arquivo server
-- 5 Abrir um terminal CTRL +  ' e dar os comandos a seguir
+## Tecnologias
+- Node.JS
+- VsCode
+- XAMPP
+- Insomnia
+## Como testas
+- 1 clone este repositório
+- 2 Abra com VsCode, abra um terminal CTRL + 'navegue até a pasta ./api e escute os seguintes comandos
 ```bash
-cd api
-npm init -y
-npm i express cors dotenv
+cd apu
+npm install
 ```
-- Iniciar o uso do prisma instalarmos ele globalmente
-``` bash
+- 3 Crie o arquivo .env na pasta api contendo a variável de ambiente de conexão
+```js
+DATABASE_URL="mysql://root@localhost:3306/petshop?schema=public&timezone=UTC"
+```
+
+
+
+
